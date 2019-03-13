@@ -1,0 +1,36 @@
+void loop() {
+delay(5);
+ timeCount += 1; 
+if(timeCount < 20) { 
+drawScreen(A);
+} 
+else if (timeCount < 40) { 
+drawScreen(R); 
+} 
+else if (timeCount < 60) {
+drawScreen(D); 
+} 
+else if (timeCount < 80) { 
+drawScreen(U);
+}
+else if (timeCount < 100) {
+drawScreen(I);
+} 
+else if (timeCount < 120) {
+drawScreen(N);
+} 
+else if (timeCount < 140) { 
+drawScreen(O); 
+} 
+else if (timeCount < 160) { 
+drawScreen(ALL);
+} 
+else if (timeCount < 180) { 
+drawScreen(ALL);
+} 
+else {
+// back to the start 
+timeCount = 0;
+}
+}
+
