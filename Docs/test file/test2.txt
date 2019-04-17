@@ -1,0 +1,205 @@
+{
+    "Labels": [
+        {
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.9268234372138977, 
+                        "Top": 0.05693113058805466, 
+                        "Left": 0.04043805971741676, 
+                        "Height": 0.9233099818229675
+                    }, 
+                    "Confidence": 95.66918182373047
+                }
+            ], 
+            "Confidence": 99.95101165771484, 
+            "Parents": [], 
+            "Name": "Person"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 99.95101165771484, 
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ], 
+            "Name": "Face"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 99.95101165771484, 
+            "Parents": [], 
+            "Name": "Human"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 86.20642852783203, 
+            "Parents": [
+                {
+                    "Name": "Accessories"
+                }
+            ], 
+            "Name": "Tie"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 86.20642852783203, 
+            "Parents": [], 
+            "Name": "Accessories"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 86.20642852783203, 
+            "Parents": [], 
+            "Name": "Accessory"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 75.95951843261719, 
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ], 
+            "Name": "Attorney"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 75.14781188964844, 
+            "Parents": [
+                {
+                    "Name": "Face"
+                }, 
+                {
+                    "Name": "Person"
+                }
+            ], 
+            "Name": "Smile"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 62.562747955322266, 
+            "Parents": [
+                {
+                    "Name": "Accessories"
+                }, 
+                {
+                    "Name": "Tie"
+                }
+            ], 
+            "Name": "Necktie"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 61.11573028564453, 
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ], 
+            "Name": "People"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 60.36979675292969, 
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ], 
+            "Name": "Photography"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 60.36979675292969, 
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ], 
+            "Name": "Photo"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 60.36979675292969, 
+            "Parents": [
+                {
+                    "Name": "Face"
+                }, 
+                {
+                    "Name": "Person"
+                }, 
+                {
+                    "Name": "Photography"
+                }
+            ], 
+            "Name": "Portrait"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 59.72568893432617, 
+            "Parents": [
+                {
+                    "Name": "Clothing"
+                }
+            ], 
+            "Name": "Coat"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 59.72568893432617, 
+            "Parents": [], 
+            "Name": "Apparel"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 59.72568893432617, 
+            "Parents": [
+                {
+                    "Name": "Coat"
+                }, 
+                {
+                    "Name": "Clothing"
+                }, 
+                {
+                    "Name": "Jacket"
+                }
+            ], 
+            "Name": "Blazer"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 59.72568893432617, 
+            "Parents": [
+                {
+                    "Name": "Coat"
+                }, 
+                {
+                    "Name": "Clothing"
+                }
+            ], 
+            "Name": "Jacket"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 59.72568893432617, 
+            "Parents": [], 
+            "Name": "Clothing"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 58.62862014770508, 
+            "Parents": [
+                {
+                    "Name": "Face"
+                }, 
+                {
+                    "Name": "Person"
+                }
+            ], 
+            "Name": "Frown"
+        }
+    ], 
+    "LabelModelVersion": "2.0"
+}

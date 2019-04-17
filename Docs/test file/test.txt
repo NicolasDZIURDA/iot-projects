@@ -1,0 +1,95 @@
+{
+    "Labels": [
+        {
+            "Instances": [], 
+            "Confidence": 99.98812103271484, 
+            "Parents": [], 
+            "Name": "Head"
+        }, 
+        {
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.9670138955116272, 
+                        "Top": 0.06798410415649414, 
+                        "Left": 0.019016990438103676, 
+                        "Height": 0.916944682598114
+                    }, 
+                    "Confidence": 96.18024444580078
+                }
+            ], 
+            "Confidence": 99.97378540039062, 
+            "Parents": [], 
+            "Name": "Person"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 99.97378540039062, 
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ], 
+            "Name": "Face"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 99.97378540039062, 
+            "Parents": [], 
+            "Name": "Human"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 77.98633575439453, 
+            "Parents": [
+                {
+                    "Name": "Face"
+                }, 
+                {
+                    "Name": "Photography"
+                }, 
+                {
+                    "Name": "Person"
+                }
+            ], 
+            "Name": "Portrait"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 77.98633575439453, 
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ], 
+            "Name": "Photo"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 77.98633575439453, 
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ], 
+            "Name": "Photography"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 68.54922485351562, 
+            "Parents": [], 
+            "Name": "Hair"
+        }, 
+        {
+            "Instances": [], 
+            "Confidence": 66.13069915771484, 
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ], 
+            "Name": "Man"
+        }
+    ], 
+    "LabelModelVersion": "2.0"
+}
