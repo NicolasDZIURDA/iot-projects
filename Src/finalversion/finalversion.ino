@@ -16,6 +16,8 @@
 #define COL_7 8
 #define COL_8 9
 
+
+//rows + col definition
 const byte rows[] = {
     ROW_1, ROW_2, ROW_3, ROW_4, ROW_5, ROW_6, ROW_7, ROW_8
 };
@@ -23,8 +25,10 @@ const byte col[] = {
   COL_1,COL_2, COL_3, COL_4, COL_5, COL_6, COL_7, COL_8
 };
 
+//mot test
 char test[] =  "human";
 
+//alphabet init
 byte ALL[] = {B00000000,B00000000,B00000000,B00000000,B00000000,B00000000,B00000000,B00000000};
 byte A[] = {B10000000,B00000000,B00000000,B00000000,B00000000,B00000000,B00000000,B00000000};
 byte B[] = {B10000000,B10000000,B00000000,B00000000,B00000000,B00000000,B00000000,B00000000};
@@ -77,41 +81,25 @@ void loop() {
 
   while( i < strlen(test) )
   {
-    
-   
     char pointer = test[i++];
     if(timeCount < 40){
-      if(pointer == 'h') {
-        drawScreen(H);
-      }
-      else if(pointer == 'e') {
-        drawScreen(E);
-      }
+      //verfication alphabet puis display function
+      verifAlphabet(pointer);
     }
     else if(timeCount < 80) {
-      if(pointer == 'u') {
-        drawScreen(U);
-      }
-      else if(pointer == 'e') {
-        drawScreen(E);
-      }
+      verifAlphabet(pointer);
     }
     else if(timeCount < 120) {
-      if(pointer == 'm') {
-        drawScreen(M);
-      }
+      verifAlphabet(pointer);
     }
     else if(timeCount < 160) {
-      if(pointer == 'a') {
-        drawScreen(A);
-      }
+      verifAlphabet(pointer);
     }
     else if(timeCount < 200) {
-      if(pointer == 'n') {
-        drawScreen(N);
-      }
+      verifAlphabet(pointer);
     }
-  
+
+//reset screen
 else if (timeCount <  240) 
 {
 drawScreen(ALL);
@@ -121,11 +109,12 @@ else if (timeCount <  260)
 drawScreen(ALL);
 } 
 else {
-// back to the start
+
 timeCount = 0;
 }
 }
 }
+
 void  drawScreen(byte buffer2[])
  { 
   
@@ -142,4 +131,90 @@ void  drawScreen(byte buffer2[])
         }
         digitalWrite(rows[i], LOW);    
     }
+}
+
+void verifAlphabet(char pointer)
+{
+  if(pointer == 'a') {
+        drawScreen(A);
+      }
+      else if(pointer == 'b') {
+        drawScreen(B);
+      }
+      else if(pointer == 'c') {
+        drawScreen(C);
+      }
+      else if(pointer == 'd') {
+        drawScreen(D);
+      }
+      else if(pointer == 'e') {
+        drawScreen(E);
+      }
+      else if(pointer == 'f') {
+        drawScreen(F);
+      }
+      else if(pointer == 'g') {
+        drawScreen(G);
+      }
+      else if(pointer == 'h') {
+        drawScreen(H);
+      }
+      else if(pointer == 'i') {
+        drawScreen(I);
+      }
+      else if(pointer == 'j') {
+        drawScreen(J);
+      }
+      else if(pointer == 'k') {
+        drawScreen(K);
+      }
+      else if(pointer == 'l') {
+        drawScreen(L);
+      }
+      else if(pointer == 'm') {
+        drawScreen(M);
+      }
+      else if(pointer == 'n') {
+        drawScreen(N);
+      }
+      else if(pointer == 'o') {
+        drawScreen(O);
+      }
+      else if(pointer == 'p') {
+        drawScreen(P);
+      }
+      else if(pointer == 'q') {
+        drawScreen(Q);
+      }
+      else if(pointer == 'r') {
+        drawScreen(R);
+      }
+      else if(pointer == 's') {
+        drawScreen(S);
+      }
+      else if(pointer == 't') {
+        drawScreen(T);
+      }
+      else if(pointer == 'u') {
+        drawScreen(U);
+      }
+      else if(pointer == 'v') {
+        drawScreen(V);
+      }
+      else if(pointer == 'w') {
+        drawScreen(W);
+      }
+      else if(pointer == 'y') {
+        drawScreen(Y);
+      }
+      else if(pointer == 'x') {
+        drawScreen(X);
+      }
+      else if(pointer == 'y') {
+        drawScreen(Y);
+      }
+      else if(pointer == 'z') {
+        drawScreen(Z);
+      }
+  
 }
