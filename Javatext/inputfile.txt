@@ -1,0 +1,59 @@
+{
+    "UnrecognizedFaces": [], 
+    "CelebrityFaces": [
+        {
+            "MatchConfidence": 100.0, 
+            "Face": {
+                "BoundingBox": {
+                    "Width": 0.39382240176200867, 
+                    "Top": 0.09278350323438644, 
+                    "Left": 0.31274130940437317, 
+                    "Height": 0.530927836894989
+                }, 
+                "Confidence": 99.99950408935547, 
+                "Pose": {
+                    "Yaw": 1.0534721612930298, 
+                    "Roll": 4.2598114013671875, 
+                    "Pitch": 3.567171812057495
+                }, 
+                "Quality": {
+                    "Sharpness": 94.1185531616211, 
+                    "Brightness": 87.14156341552734
+                }, 
+                "Landmarks": [
+                    {
+                        "Y": 0.30835551023483276, 
+                        "X": 0.4571751058101654, 
+                        "Type": "eyeLeft"
+                    }, 
+                    {
+                        "Y": 0.3224458396434784, 
+                        "X": 0.5847495794296265, 
+                        "Type": "eyeRight"
+                    }, 
+                    {
+                        "Y": 0.3968064486980438, 
+                        "X": 0.5160179138183594, 
+                        "Type": "nose"
+                    }, 
+                    {
+                        "Y": 0.47441089153289795, 
+                        "X": 0.45168259739875793, 
+                        "Type": "mouthLeft"
+                    }, 
+                    {
+                        "Y": 0.4934709668159485, 
+                        "X": 0.5619027614593506, 
+                        "Type": "mouthRight"
+                    }
+                ]
+            }, 
+            "Name": "Jacques Chirac", 
+            "Urls": [
+                "www.imdb.com/name/nm0158105"
+            ], 
+            "Id": "2nN3Gt5"
+        }
+    ], 
+    "OrientationCorrection": "ROTATE_0"
+}

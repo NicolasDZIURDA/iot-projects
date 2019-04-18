@@ -1,0 +1,59 @@
+ 
+ unrecognizedfaces 
+ celebrityfaces 
+ 
+ matchconfidence 100 0 
+ face 
+ boundingbox 
+ width 0 39382240176200867 
+ top 0 09278350323438644 
+ left 0 31274130940437317 
+ height 0 530927836894989
+ 
+ confidence 99 99950408935547 
+ pose 
+ yaw 1 0534721612930298 
+ roll 4 2598114013671875 
+ pitch 3 567171812057495
+ 
+ quality 
+ sharpness 94 1185531616211 
+ brightness 87 14156341552734
+ 
+ landmarks 
+ 
+ y 0 30835551023483276 
+ x 0 4571751058101654 
+ type eyeleft 
+ 
+ 
+ y 0 3224458396434784 
+ x 0 5847495794296265 
+ type eyeright 
+ 
+ 
+ y 0 3968064486980438 
+ x 0 5160179138183594 
+ type nose 
+ 
+ 
+ y 0 47441089153289795 
+ x 0 45168259739875793 
+ type mouthleft 
+ 
+ 
+ y 0 4934709668159485 
+ x 0 5619027614593506 
+ type mouthright 
+ 
+ 
+ 
+ name jacques chirac 
+ urls 
+ www imdb com name nm0158105 
+ 
+ id 2nn3gt5 
+ 
+ 
+ orientationcorrection rotate 0 
+ 
